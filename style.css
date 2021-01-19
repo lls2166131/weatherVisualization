@@ -1,0 +1,65 @@
+body {
+	/* background-image: url('./img/bg.jpg'); */
+	font: 12px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+.container {
+    width: 640px; 
+    margin: 100px auto 0;
+}
+#id-div-chart {
+	width: 600px;
+    height: 400px;
+    margin: 0 auto;
+
+}
+
+.search-group {
+    width: 640px;
+    height: 40px;
+    margin-top: 45px;
+}
+
+.search-city {
+    width: 538px;
+    height: 38px;
+    padding: 0px;
+    float: left;
+    border: 1px solid #41a1cb;
+    outline: none;
+    text-indent: 10px;
+}
+
+.search-button {
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    float: left;
+    background-color: #41a1cb;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ 
+.hot-key {
+    margin: 3px 0 0 2px;
+}
+
+ 
+.hot-key a {
+    font-size: 14px;
+    color: #666;
+    padding-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}

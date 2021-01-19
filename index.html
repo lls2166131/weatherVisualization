@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>XiaoHuaSheng Weather</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="img/小花生.jpg">
+    <script src="https://cdn.bootcss.com/echarts/3.7.0/echarts.min.js"></script>
+    <script src="js/utils.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header">小花生的 天气预报</h1>
+        <div class="search-group">
+            <input type="text" placeholder="请输入查询的天气" class="search-city">
+            <button class="search-button" data-action='search_city'>
+                    搜 索
+                </button>
+        </div>
+        <div class="hot-key" data-hotcity='武汉'>
+        </div>
+        <div id="id-div-chart">
+
+        </div>
+    </div>
+<!--     <script src="js/t.js"></script>-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
