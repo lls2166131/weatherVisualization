@@ -13,7 +13,6 @@ const fetchWeather = function (callback, city = '武汉') {
     ajax(request)
 }
 
-//看不懂
 const formattedChart = function () {
     let element = e('#id-div-chart')
     let chart = echarts.init(element)
@@ -39,7 +38,7 @@ const dailyForcast = function (weather) {
     return w
 }
 
-//看不懂
+//echarts
 const formattedWeather = function (weather) {
     let data = dailyForcast(weather)
     let city = e('.hot-key').dataset.hotcity
@@ -130,7 +129,6 @@ const formattedWeather = function (weather) {
 }
 
 
-//
 const renderChart = function (data) {
     log('data', data)
     let weather = data.HeWeather5[0]
